@@ -11,7 +11,6 @@ const nextConfig = {
     plugins: {
     },
     output: 'export',
-    'process.env.BACKEND_URL': prod? 'https://atidos.github.io/fibula' : ''
 }
 
 module.exports = nextConfig
