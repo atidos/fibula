@@ -11,15 +11,15 @@ export default function Home() {
 		<main>
 			<div className="lg:pt-8 md:pt-8 sm:pt-4 lg:px-80 md:px-40 ">
 				<div className="relative h-[40vh]">
-					<Image
-							src="/tascam13.png"
+					<img
+							src="./tascam13.png"
 							width={1492}
 							height={1310}
 							alt="tascam"
 							className="absolute right-[30px] bottom-[-20px] w-[60%] shadow-lg -z-1"
 						/>
-					<Image
-							src="/header.svg"
+					<img
+							src="./header.svg"
 							width={400}
 							height={400}
 							alt="logo"
