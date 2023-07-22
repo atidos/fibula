@@ -6,8 +6,6 @@ const nextConfig = {
     },
     plugins: {
     },
-    basePath: '/fibula',
-    assetPrefix: '/fibula',
     output: 'export'
 
 }
