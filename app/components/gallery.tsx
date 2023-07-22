@@ -132,7 +132,7 @@ export default function Gallery() {
 						height={300}
 						alt='logo'
 						placeholder='blur'
-						blurDataURL='/image-loading.png'
+						blurDataURL='../public/image-loading.png'
 						className="shadow-md p-4 ..."
 						/>
 					</div>

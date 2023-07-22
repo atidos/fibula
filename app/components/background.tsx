@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react';
-
 import { useEffect, useState } from 'react';
 
 export default function DynamicBG({children}: {
@@ -30,12 +29,12 @@ export default function DynamicBG({children}: {
 	return (
 		<body className="bg-[url('../public/bg-1.png')] min-h-screen">
 
-			<div className="bg-[url('../public/bg-2.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
+			<div className="bg-[url('../public/bg-2.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full -z-20 ..."
 			style={{left: `${Math.round(coords.x * 30 - 15)}px`}}>
 			</div>
 
 
-			<div className="bg-[url('../public/bg-3.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
+			<div className="bg-[url('../public/bg-3.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full -z-10 ..."
 			style={{left: `${Math.round(coords.x * 60 - 30)}px`}}>
 			</div>
 
