@@ -28,19 +28,19 @@ export default function DynamicBG({children}: {
 	}, []);
 
 	return (
-		<body className="bg-[url('../public/bg-1.png')] min-h-screen">
+		<body className="bg-[url('/bg-1.png')] min-h-screen">
 
-			<div className="bg-[url('../public/bg-2.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
+			<div className="bg-[url('/bg-2.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
 			style={{left: `${Math.round(coords.x * 30 - 15)}px`}}>
 			</div>
 
 
-			<div className="bg-[url('../public/bg-3.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
+			<div className="bg-[url('/bg-3.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
 			style={{left: `${Math.round(coords.x * 60 - 30)}px`}}>
 			</div>
 
 
-			<div className="bg-[url('../public/bg-4.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full z-20 pointer-events-none ..."
+			<div className="bg-[url('/bg-4.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full z-20 pointer-events-none ..."
 			style={{left: `${Math.round(coords.x * 100 - 50)}px`}}>
 			</div>
 
