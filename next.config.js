@@ -6,7 +6,6 @@ const nextConfig = {
     },
     plugins: {
     },
-    output: 'export',
     
 }
 
