@@ -103,12 +103,12 @@ export default function Gallery() {
 
 					<div className={`transition-all ease-in-out w-auto max-h-20 bg-neutral-800 shadow-md rounded-md hover:bg-neutral-700 hover:-translate-y-4 aspect-square grid place-items-center
 					${logoList[showIndex]?.imageURLs[1]? '' : 'hidden'}`} onClick={() => changeShowType(1)}>
-						<div className="relative bg-[url('./colored.png')] bg-contain w-2/3 h-2/3 shadow-md rounded-md pointer-events-none"></div>
+						<div className="relative bg-[url('/colored.png')] bg-contain w-2/3 h-2/3 shadow-md rounded-md pointer-events-none"></div>
 					</div>
 
 					<div className={`transition-all ease-in-out w-auto max-h-20 bg-neutral-800 shadow-md rounded-md hover:bg-neutral-700 hover:-translate-y-4 aspect-square grid place-items-center
 					${logoList[showIndex]?.imageURLs[2]? '' : 'hidden'}`} onClick={() => changeShowType(2)}>
-						<div className="relative bg-[url('./textured.png')] bg-contain w-2/3 h-2/3 shadow-md rounded-md pointer-events-none"></div>
+						<div className="relative bg-[url('/textured.png')] bg-contain w-2/3 h-2/3 shadow-md rounded-md pointer-events-none"></div>
 					</div>
 				</div>
 				
@@ -132,7 +132,7 @@ export default function Gallery() {
 						height={300}
 						alt='logo'
 						placeholder='blur'
-						blurDataURL='./image-loading.png'
+						blurDataURL='/image-loading.png'
 						className="shadow-md p-4 ..."
 						/>
 					</div>
