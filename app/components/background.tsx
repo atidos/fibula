@@ -28,7 +28,7 @@ export default function DynamicBG({children}: {
 	}, []);
 
 	return (
-		<body className="bg-[url('/bg-1.png')] min-h-screen">
+		<body className="bg-[url('../public/bg-1.png')] min-h-screen">
 
 			<div className="bg-[url('../public/bg-2.png')] fixed top-0 mix-blend-lighten bg-repeatx h-full w-full ..."
 			style={{left: `${Math.round(coords.x * 30 - 15)}px`}}>
