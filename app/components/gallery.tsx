@@ -80,13 +80,12 @@ export default function Gallery() {
 					height="1"
 					alt='logo'
 					sizes="100vw"
-					className="h-full w-full 
-					-contain mx-auto corners shadow-md ..."
+					className="h-full w-auto contain mx-auto corners shadow-md ..."
 					onLoadingComplete={(e) => {setLoading(false)}}
 					/>
 					<div className={`absolute transition ease-in-out duration-75 top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${loading? '' : 'scale-0'}`}>
 						<svg width="50" height="50" viewBox="-25 -25 250 250" version="1.1" className='animate-spin drop-shadow-md'>
-							<circle r="90" cx="100" cy="100" stroke="#333333" stroke-width="40" stroke-linecap="round" stroke-dashoffset="NaNpx" fill="transparent" stroke-dasharray="565.48px"></circle>
+							<circle r="90" cx="100" cy="100" stroke="#333333" strokeWidth="40" strokeLinecap="round" strokeDashoffset="NaNpx" fill="transparent" strokeDasharray="565.48px"></circle>
 							<circle r="20" cx="190" cy="100" fill="#ffffff"></circle>
 						</svg>
 					</div>
