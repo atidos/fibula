@@ -2,6 +2,7 @@
   "name": "fibula",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fibula.studio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
